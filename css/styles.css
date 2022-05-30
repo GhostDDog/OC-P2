@@ -288,13 +288,13 @@ h3 {
     display: flex;
     flex-wrap: wrap;
     white-space: nowrap;
-    margin-top: 50px;
+    margin-top: 20%;
 }
 .footerCard2 {
     display: flex;
     flex-wrap: wrap;
     white-space: nowrap;
-    margin-top: 50px;
+    margin-top: 20%;
 }
 
 .right {
@@ -687,6 +687,12 @@ footer ul li {
         height: auto;
         margin-bottom: 7px;
     }
+    .footerCard {
+        margin-top: 5px;
+    }
+    .footerCard2 {
+        margin-top: 10px;
+    }
 
     /* HEADER */
 
@@ -926,7 +932,7 @@ footer ul li {
         margin-top: 40px;
     }
     .footerCard2 {
-        margin-top: 25px;
+        margin-top: 10%;
     }
 
     .card:hover {
