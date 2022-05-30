@@ -293,13 +293,14 @@ h3 {
 .footerCard {
     display: flex;
     flex-wrap: wrap;
-    text-align: left;
-    background-color: transparent;
-    width: auto;
-    height: auto;
     white-space: nowrap;
-    
-      
+    margin-top: 50px;
+}
+.footerCard2 {
+    display: flex;
+    flex-wrap: wrap;
+    white-space: nowrap;
+    margin-top: 50px;
 }
 
 .right {
@@ -735,6 +736,7 @@ footer ul li {
         width: 145px;
         height: 50px;
     }
+    
    
     /* FOOTER */
     .columnMobile {
@@ -790,7 +792,7 @@ footer ul li {
     }
     .bordurNav {
         border-bottom: 3px solid rgb(243, 243, 243);
-        border-bottom-width: 200%;
+        
     }
     .sizelink {
         width: 100%;
@@ -925,13 +927,20 @@ footer ul li {
     .fa.fa-line-chart {
         width: auto;
         margin-right: 0;
-        padding-right: 20px;
+        padding-right: 10px;
     }
 
     .card {
         margin-top: 10px;
         margin-right: 0;
         width: auto;
+    }
+
+    .footerCard {
+        margin-top: 40px;
+    }
+    .footerCard2 {
+        margin-top: 25px;
     }
 
     .card:hover {
