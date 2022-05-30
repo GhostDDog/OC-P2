@@ -672,6 +672,21 @@ footer ul li {
     body {
         width: auto;
     }
+
+    .col-md-12{
+        width: 100%;
+    }
+
+    .col-8 {
+        padding: 10px;
+    }
+    .row2{
+        display: flex !important;
+        flex-direction: column !important;
+    }
+    .pr-35 {
+        padding-right: 10px;
+    }
        
     .card {
         height: auto;
