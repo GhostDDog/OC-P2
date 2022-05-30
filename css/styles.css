@@ -1,12 +1,12 @@
 * {
     font-family: "Raleway", "sans-serif";
-    color: black;
+    
     padding-left: 10px;
     
 }
 a {
-    color: black;
     text-decoration: none;
+    color: black;
 }
 
 html, body {
@@ -144,7 +144,12 @@ h3 {
 #Hebergement {
     margin-left: 30px;
 }
-
+.heberge:hover {
+    color: #2a67ff;  
+}
+.activi:hover {
+    color: #2a67ff;
+}
 .card{
     width: 100%;
     height: 100%;
@@ -685,7 +690,7 @@ footer ul li {
         flex-direction: column !important;
     }
     .pr-35 {
-        padding-right: 10px;
+        padding-right: 0px;
     }
        
     .card {
@@ -726,6 +731,12 @@ footer ul li {
         margin-left: auto;
         margin-right: auto;
     }
+    .heberge:hover {
+        color: #2a67ff;  
+    }
+    .activi:hover {
+        color: #2a67ff;
+    }
     .bordurNav:hover {
         border-bottom: 3px solid #0065FC;
         border-top: 3px solid transparent;
@@ -734,17 +745,20 @@ footer ul li {
     }
     .bordurNav {
         border-bottom: 3px solid transparent;
-        
+        margin-left: -10px;
+        margin-right: -10px;
     }
+  
     .sizelink {
         width: 100%;
-        margin-left: auto;
+        margin-left:-10px;
         margin-right: auto;
-        align-items: center;
+        padding-left:0;
     }
     .sizeNav {
-        width: 145px;
+        width: 100%;
         height: 50px;
+        
     }
       
     /* FOOTER */
@@ -797,7 +811,8 @@ footer ul li {
     .bordurNav:hover {
         border-bottom: 3px solid #0065FC;
         border-top: 3px solid transparent;
-        color: #2a67ff;          
+        color: #2a67ff; 
+                 
     }
     .bordurNav {
         border-bottom: 3px solid rgb(243, 243, 243);
