@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "autoprefixer": "^10.4.4",
+    "normalize.css": "^8.0.1"
+  },
+  "name": "css",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "prefix": "postcss ./public/css/style.css --use autoprefixer -d ./public/css/prefixed/"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
