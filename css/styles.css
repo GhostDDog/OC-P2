@@ -679,7 +679,8 @@ footer ul li {
     }
 
     .col-md-12{
-        width: 100%;
+        width: 96%;
+        
     }
 
     .col-8 {
@@ -690,7 +691,7 @@ footer ul li {
         flex-direction: column !important;
     }
     .pr-35 {
-        padding-right: 0px;
+        padding-right: 16px;
     }
        
     .card {
@@ -773,6 +774,10 @@ footer ul li {
         display: block;
         text-align: left;
     }
+   
+    .col-3 {
+        width: 33.33%;
+    }
     
 }
 
@@ -781,6 +786,10 @@ footer ul li {
         width: auto;
     }
 
+    .row2{
+        display: flex !important;
+        flex-direction: column-reverse !important;
+    }
     
     img {
         object-fit: cover;
@@ -1071,6 +1080,7 @@ footer ul li {
         display: block;
         text-align: left;
     }
+    
 
     footer {
         padding-left: 20px;
