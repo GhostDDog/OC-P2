@@ -23,7 +23,7 @@ html, body {
 .container-bottom { 
     margin-top: 50px;
     margin-bottom: 50px;
-    margin-left: -10px;
+    
 }
 
 .row{
@@ -775,7 +775,11 @@ footer ul li {
         display: block;
         text-align: left;
     }
-    
+    .container-bottom { 
+        margin-top: 50px;
+        margin-bottom: 50px;
+        margin-left:-10px;
+    }
 }
 
 @media screen and (max-width:768px) {
