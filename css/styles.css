@@ -23,6 +23,7 @@ html, body {
 .container-bottom { 
     margin-top: 50px;
     margin-bottom: 50px;
+    margin-left: -10px;
 }
 
 .row{
@@ -1038,6 +1039,7 @@ footer ul li {
         display: flex;
         flex-direction: column;
         margin-top: 20px;
+        margin-left:0;
     }
     .pr-35 {
         padding: 0;
